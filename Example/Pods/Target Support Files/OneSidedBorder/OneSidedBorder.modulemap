@@ -1,0 +1,6 @@
+framework module OneSidedBorder {
+  umbrella header "OneSidedBorder-umbrella.h"
+
+  export *
+  module * { export * }
+}

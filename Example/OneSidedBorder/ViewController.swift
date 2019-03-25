@@ -7,18 +7,22 @@
 //
 
 import UIKit
+import OneSidedBorder
 
 class ViewController: UIViewController {
+    @IBOutlet weak var contentView: UIView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        contentView.topBorderColor = UIColor.red
+        contentView.topBorderWidth = 3
+        contentView.rightBorderColor = UIColor.blue
+        contentView.rightBorderMargin = 15
+        contentView.rightBorderWidth = 1
+        contentView.bottomBorderColor = UIColor.gray
+        contentView.bottomBorderWidth = 10
+        contentView.leftBorderColor = UIColor.green
+        contentView.leftBorderWidth = 2
     }
-
 }
-

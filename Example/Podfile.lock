@@ -1,0 +1,16 @@
+PODS:
+  - OneSidedBorder (0.1.0)
+
+DEPENDENCIES:
+  - OneSidedBorder (from `../`)
+
+EXTERNAL SOURCES:
+  OneSidedBorder:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OneSidedBorder: 32479316dee0468ebc1e1a5e18c4e17d1257eff4
+
+PODFILE CHECKSUM: 6da86a6c35f9bc09d136fb1ebd4fe344e999b46c
+
+COCOAPODS: 1.5.3
