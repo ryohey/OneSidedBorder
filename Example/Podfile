@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'OneSidedBorder_Example' do
+  pod 'OneSidedBorder', :path => '../'
+
+  target 'OneSidedBorder_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
