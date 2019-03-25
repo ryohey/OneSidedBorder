@@ -1,8 +1,8 @@
 {
   "name": "OneSidedBorder",
   "version": "0.1.0",
-  "summary": "A short description of OneSidedBorder.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "Extension to add borders to a UIView.",
+  "description": "Extension to add borders to a UIView .",
   "homepage": "https://github.com/ryohey/OneSidedBorder",
   "license": {
     "type": "MIT",
@@ -18,5 +18,6 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "OneSidedBorder/Classes/**/*"
+  "source_files": "OneSidedBorder/Classes/**/*",
+  "swift_version": "4.2"
 }

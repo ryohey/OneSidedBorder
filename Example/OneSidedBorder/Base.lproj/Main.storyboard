@@ -21,27 +21,30 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2g3-1b-dqN">
-                                <rect key="frame" x="67.5" y="269.5" width="240" height="128"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add borders to UIView" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4hf-nh-yxw">
+                                <rect key="frame" x="60.5" y="305" width="254" height="57"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="128" id="dTs-9I-gEc"/>
-                                    <constraint firstAttribute="width" constant="240" id="qTC-P2-qdU"/>
+                                    <constraint firstAttribute="width" constant="254" id="M3e-kW-Kk2"/>
+                                    <constraint firstAttribute="height" constant="57" id="aNb-Qp-VIz"/>
                                 </constraints>
-                            </view>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="2g3-1b-dqN" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="J2g-U6-Wss"/>
-                            <constraint firstItem="2g3-1b-dqN" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="axZ-oh-kei"/>
+                            <constraint firstItem="4hf-nh-yxw" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="83U-8R-fbX"/>
+                            <constraint firstItem="4hf-nh-yxw" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="Ghd-bc-M9F"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="contentView" destination="2g3-1b-dqN" id="8XM-Mq-9LB"/>
+                        <outlet property="contentView" destination="4hf-nh-yxw" id="Qal-1g-jpJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="116" y="32.833583208395808"/>
         </scene>
     </scenes>
 </document>
