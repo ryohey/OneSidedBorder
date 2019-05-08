@@ -19,5 +19,5 @@
     "ios": "8.0"
   },
   "source_files": "OneSidedBorder/Classes/**/*",
-  "swift_version": "4.2"
+  "frameworks": "UIKit"
 }

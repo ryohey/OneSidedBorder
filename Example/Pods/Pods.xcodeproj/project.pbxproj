@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		24D6A41D1A188D0D3CBA5C0323455796 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		30B46F77D57D544E911577720737E549 /* Pods-OneSidedBorder_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE739E4517F127D00F21D47FDCA8FE6A /* Pods-OneSidedBorder_Example-dummy.m */; };
-		4408420A69FC6BE6E4CFE37BFA71048B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		42492CC71AD4EB15042E72D55DD83876 /* OneSidedBorder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52787140426194D9BD512EAC70C384A7 /* OneSidedBorder-dummy.m */; };
+		4408420A69FC6BE6E4CFE37BFA71048B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
 		4BC4F645AEC0F394D4C3C5C152AA7AD5 /* Pods-OneSidedBorder_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4E907A58734CD3AD481096A47ACF69 /* Pods-OneSidedBorder_Tests-dummy.m */; };
-		600114CC9260C8965D02C37D7339E840 /* UIView+Borders.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FCE2816D27C85D82F7A9AFC5CCA912 /* UIView+Borders.swift */; };
-		6EE798F37475F1FE1B5E42F585291FDC /* OneSidedBorder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52787140426194D9BD512EAC70C384A7 /* OneSidedBorder-dummy.m */; };
 		6F3B650720C8690768E7AEC0CADC0AD8 /* Pods-OneSidedBorder_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E17F4F348A9990800B1C66F776F55B7F /* Pods-OneSidedBorder_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		86353C6CC3B96C56B2CC121DB83C37C5 /* OneSidedBorder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6856AB2A0BD070379536D174CF950A6B /* OneSidedBorder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8615F6C821145F93D7AA86B121660169 /* OneSidedBorder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6856AB2A0BD070379536D174CF950A6B /* OneSidedBorder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		94E397ED8E268D4CAF9FA4B7411856EC /* Pods-OneSidedBorder_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 421220EE6FD475A41BA69769F40EABCA /* Pods-OneSidedBorder_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		97EFF367B514496B3651BDEEDF7078B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		CB5F12508E67329BA7F6A08BE1C2F31F /* BorderLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EC5EC05103D0EBF3832EC306DAD25B /* BorderLayer.swift */; };
+		97EFF367B514496B3651BDEEDF7078B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		A1A8E34B385C7999C859671325D54509 /* BorderLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EC5EC05103D0EBF3832EC306DAD25B /* BorderLayer.swift */; };
+		A3A3BBA807FFD5BD5F9011CDBA5113C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */; };
+		E868D057624D637D84FE40B67535380B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		FC90B0CF31A21D5CD7C3B53AC4749DDA /* UIView+Borders.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FCE2816D27C85D82F7A9AFC5CCA912 /* UIView+Borders.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,7 +26,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8467A5977D05CCC27274A203A1BD5D26;
+			remoteGlobalIDString = 791F4980BC4C1AB01B59C2EB67B0A50B;
 			remoteInfo = OneSidedBorder;
 		};
 		6A1E5B764359EA58B7C84E0A374E5FE0 /* PBXContainerItemProxy */ = {
@@ -39,30 +40,31 @@
 
 /* Begin PBXFileReference section */
 		06EC5EC05103D0EBF3832EC306DAD25B /* BorderLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BorderLayer.swift; path = OneSidedBorder/Classes/BorderLayer.swift; sourceTree = "<group>"; };
-		0ECA4ABE2DA74B56602507AC9CFC84ED /* Pods_OneSidedBorder_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneSidedBorder_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ECA4ABE2DA74B56602507AC9CFC84ED /* Pods_OneSidedBorder_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OneSidedBorder_Tests.framework; path = "Pods-OneSidedBorder_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11C783BAFD05BC746BD7864AF50093B9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		120B1BE25580D1D3E50A954B88FF68D3 /* Pods-OneSidedBorder_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OneSidedBorder_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		16FE2C28A0ECEBA905D50ACC8F2B9CE1 /* OneSidedBorder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OneSidedBorder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		16FE2C28A0ECEBA905D50ACC8F2B9CE1 /* OneSidedBorder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OneSidedBorder.framework; path = OneSidedBorder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		24B287C98B9F1279A4A92DA0B326FE63 /* Pods-OneSidedBorder_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OneSidedBorder_Example.release.xcconfig"; sourceTree = "<group>"; };
 		26A828D4C1500E9C66CE63644E302D4D /* Pods-OneSidedBorder_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OneSidedBorder_Tests.modulemap"; sourceTree = "<group>"; };
 		276285D2D2B10E0A00941C419F4DBAB3 /* Pods-OneSidedBorder_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OneSidedBorder_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2E9BD63DF38B36839C4474C92AA3295A /* Pods-OneSidedBorder_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OneSidedBorder_Tests-resources.sh"; sourceTree = "<group>"; };
+		40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		421220EE6FD475A41BA69769F40EABCA /* Pods-OneSidedBorder_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OneSidedBorder_Example-umbrella.h"; sourceTree = "<group>"; };
 		4B496D00193E2B4B45360DD35D9D092E /* Pods-OneSidedBorder_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OneSidedBorder_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		50E892808BD67375781BB3B463D7AF46 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		50E892808BD67375781BB3B463D7AF46 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		5277C8F91CEC555E6F6A873BA6655EB1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52787140426194D9BD512EAC70C384A7 /* OneSidedBorder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OneSidedBorder-dummy.m"; sourceTree = "<group>"; };
 		5DF1BAE04EE6D8B38182FAB0DAE1C35C /* Pods-OneSidedBorder_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OneSidedBorder_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		5F604C850768925C8B318866D1739A20 /* OneSidedBorder.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = OneSidedBorder.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5F604C850768925C8B318866D1739A20 /* OneSidedBorder.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = OneSidedBorder.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6856AB2A0BD070379536D174CF950A6B /* OneSidedBorder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OneSidedBorder-umbrella.h"; sourceTree = "<group>"; };
 		7AAD6B8F5014A4DE6445CA66D074A97C /* OneSidedBorder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OneSidedBorder.xcconfig; sourceTree = "<group>"; };
-		961ADB3AA2F3464F0F75E37F96FEBB89 /* Pods_OneSidedBorder_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneSidedBorder_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		961ADB3AA2F3464F0F75E37F96FEBB89 /* Pods_OneSidedBorder_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OneSidedBorder_Example.framework; path = "Pods-OneSidedBorder_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		989EFDC470112E7DAE5722B371804A5A /* OneSidedBorder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OneSidedBorder.modulemap; sourceTree = "<group>"; };
 		9FFE12B63F5502C62F4278EBF114E8D6 /* OneSidedBorder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OneSidedBorder-prefix.pch"; sourceTree = "<group>"; };
 		A29B667F198D53D7B88581FF144E3EBE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A947C666323974037C814E8096C8F7BC /* Pods-OneSidedBorder_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OneSidedBorder_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AB110C917BAC094F5874C74BA2BA9B62 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		AB110C917BAC094F5874C74BA2BA9B62 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		AE2622185935DB57FF70322970196B6E /* Pods-OneSidedBorder_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OneSidedBorder_Example-resources.sh"; sourceTree = "<group>"; };
 		B52FFC8F6687149FECD574C90F36ED6B /* Pods-OneSidedBorder_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OneSidedBorder_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		B8C8C11E001A0132ED35748CD0B55BB9 /* Pods-OneSidedBorder_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OneSidedBorder_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -70,8 +72,8 @@
 		BE739E4517F127D00F21D47FDCA8FE6A /* Pods-OneSidedBorder_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OneSidedBorder_Example-dummy.m"; sourceTree = "<group>"; };
 		BF4E907A58734CD3AD481096A47ACF69 /* Pods-OneSidedBorder_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OneSidedBorder_Tests-dummy.m"; sourceTree = "<group>"; };
 		C76024F3B896460FA5377C6879374642 /* Pods-OneSidedBorder_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OneSidedBorder_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		E17F4F348A9990800B1C66F776F55B7F /* Pods-OneSidedBorder_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OneSidedBorder_Tests-umbrella.h"; sourceTree = "<group>"; };
+		ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		EFF9FF3CD4F8674FE4E389739AB15F5B /* Pods-OneSidedBorder_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OneSidedBorder_Example-frameworks.sh"; sourceTree = "<group>"; };
 		F4FCE2816D27C85D82F7A9AFC5CCA912 /* UIView+Borders.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Borders.swift"; path = "OneSidedBorder/Classes/UIView+Borders.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,19 +87,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5AC50CFA7C4466924E8B177B8408787A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E868D057624D637D84FE40B67535380B /* Foundation.framework in Frameworks */,
+				A3A3BBA807FFD5BD5F9011CDBA5113C0 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AD8122B2EDD05376853AD95A2C7A960A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4408420A69FC6BE6E4CFE37BFA71048B /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BEFA643A6BF215D5D8E56C92EC56403C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				24D6A41D1A188D0D3CBA5C0323455796 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +115,14 @@
 				50E892808BD67375781BB3B463D7AF46 /* README.md */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E169A450ED27AC725DF52953F66D11E0 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		421B23C99EF0BA4F8FFE4A7BE2ECA280 /* Products */ = {
@@ -142,14 +153,6 @@
 				90E06D15700A6ECC6EF65411E817948F /* OneSidedBorder */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		9F732E01BD6E7C186FBD3207069E37B9 /* Pods-OneSidedBorder_Tests */ = {
@@ -193,18 +196,10 @@
 			children = (
 				24390EFD555DD124430DFF9724065945 /* Podfile */,
 				9894CC588106B5910C6CE6834C845071 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				421B23C99EF0BA4F8FFE4A7BE2ECA280 /* Products */,
 				DD3A33E5D5FF2C6FBF3F1CEEE40226FA /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		D59279908116D683D853CEB2002EC0FB /* Support Files */ = {
@@ -230,17 +225,18 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		E169A450ED27AC725DF52953F66D11E0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */,
+				ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2108E79E45AC460ADF7628236EE84383 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				86353C6CC3B96C56B2CC121DB83C37C5 /* OneSidedBorder-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B8DCC4C8E9A3A01CCB41A22C948AEE82 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -257,17 +253,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EF64D6C6863C5733AD380C7F62E5503A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8615F6C821145F93D7AA86B121660169 /* OneSidedBorder-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		8467A5977D05CCC27274A203A1BD5D26 /* OneSidedBorder */ = {
+		791F4980BC4C1AB01B59C2EB67B0A50B /* OneSidedBorder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BE874CFF4A47129628080A0A74FEBDEE /* Build configuration list for PBXNativeTarget "OneSidedBorder" */;
+			buildConfigurationList = 4BFC02AAEAB943E8DB417ECC48A2B047 /* Build configuration list for PBXNativeTarget "OneSidedBorder" */;
 			buildPhases = (
-				2108E79E45AC460ADF7628236EE84383 /* Headers */,
-				D1305DE5257E823A09DB345B9D26A4FD /* Sources */,
-				BEFA643A6BF215D5D8E56C92EC56403C /* Frameworks */,
-				60A528679812EC1A33A79463F52BE255 /* Resources */,
+				EF64D6C6863C5733AD380C7F62E5503A /* Headers */,
+				4A18FBF80685BD2944B76092EEB72442 /* Sources */,
+				5AC50CFA7C4466924E8B177B8408787A /* Frameworks */,
+				BE575E8122765FEED6F6E60F89BC1C34 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -337,7 +341,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8467A5977D05CCC27274A203A1BD5D26 /* OneSidedBorder */,
+				791F4980BC4C1AB01B59C2EB67B0A50B /* OneSidedBorder */,
 				D3789DDD30076D49717AFCAAD2C61156 /* Pods-OneSidedBorder_Example */,
 				E24FAF6C4F8EB2C1BE7167EED00CF16A /* Pods-OneSidedBorder_Tests */,
 			);
@@ -345,13 +349,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		60A528679812EC1A33A79463F52BE255 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6DBAA9E72438123B3925F44C6DD8F925 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -366,9 +363,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BE575E8122765FEED6F6E60F89BC1C34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4A18FBF80685BD2944B76092EEB72442 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1A8E34B385C7999C859671325D54509 /* BorderLayer.swift in Sources */,
+				42492CC71AD4EB15042E72D55DD83876 /* OneSidedBorder-dummy.m in Sources */,
+				FC90B0CF31A21D5CD7C3B53AC4749DDA /* UIView+Borders.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6A4AB11CEA17ECBEA49F2D44D777D83A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -385,16 +399,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D1305DE5257E823A09DB345B9D26A4FD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CB5F12508E67329BA7F6A08BE1C2F31F /* BorderLayer.swift in Sources */,
-				6EE798F37475F1FE1B5E42F585291FDC /* OneSidedBorder-dummy.m in Sources */,
-				600114CC9260C8965D02C37D7339E840 /* UIView+Borders.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -407,7 +411,7 @@
 		D5D97E9C31DC09EA126CF90B690D5F99 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = OneSidedBorder;
-			target = 8467A5977D05CCC27274A203A1BD5D26 /* OneSidedBorder */;
+			target = 791F4980BC4C1AB01B59C2EB67B0A50B /* OneSidedBorder */;
 			targetProxy = 65523750798CD2006B7BF2CE34F27BEC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -479,39 +483,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		2D7FA5839AA53D2F1B92A18F063FEE46 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AAD6B8F5014A4DE6445CA66D074A97C /* OneSidedBorder.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OneSidedBorder/OneSidedBorder-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OneSidedBorder/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OneSidedBorder/OneSidedBorder.modulemap";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.codingcafe.OneSidedBorder;
-				PRODUCT_MODULE_NAME = OneSidedBorder;
-				PRODUCT_NAME = OneSidedBorder;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		A2D8ABB6E4BC099AA916C6E74DA83921 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -613,6 +584,38 @@
 			};
 			name = Release;
 		};
+		BD1607123D5C6424BE7090E587F02E97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AAD6B8F5014A4DE6445CA66D074A97C /* OneSidedBorder.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OneSidedBorder/OneSidedBorder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OneSidedBorder/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OneSidedBorder/OneSidedBorder.modulemap";
+				PRODUCT_MODULE_NAME = OneSidedBorder;
+				PRODUCT_NAME = OneSidedBorder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		BF17B80227EE551582927B0FBE01EF40 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -668,7 +671,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -707,7 +711,7 @@
 			};
 			name = Debug;
 		};
-		DC1F183EBC14059B4578867424562E81 /* Debug */ = {
+		D9EE86C5E61F06EC38003973197433D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7AAD6B8F5014A4DE6445CA66D074A97C /* OneSidedBorder.xcconfig */;
 			buildSettings = {
@@ -726,13 +730,12 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/OneSidedBorder/OneSidedBorder.modulemap";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.codingcafe.OneSidedBorder;
 				PRODUCT_MODULE_NAME = OneSidedBorder;
 				PRODUCT_NAME = OneSidedBorder;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -751,6 +754,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		4BFC02AAEAB943E8DB417ECC48A2B047 /* Build configuration list for PBXNativeTarget "OneSidedBorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9EE86C5E61F06EC38003973197433D9 /* Debug */,
+				BD1607123D5C6424BE7090E587F02E97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		7DAAA217F48C5D84EBD967F6D0E865C2 /* Build configuration list for PBXNativeTarget "Pods-OneSidedBorder_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -765,15 +777,6 @@
 			buildConfigurations = (
 				2A29C4DE1922E0C19702FF52FFA8E365 /* Debug */,
 				032026816EA0A53E580FF05FAFE181C3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BE874CFF4A47129628080A0A74FEBDEE /* Build configuration list for PBXNativeTarget "OneSidedBorder" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DC1F183EBC14059B4578867424562E81 /* Debug */,
-				2D7FA5839AA53D2F1B92A18F063FEE46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
