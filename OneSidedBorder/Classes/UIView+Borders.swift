@@ -16,62 +16,62 @@ private var kBorderLayerKey: Int = 0
 
  */
 public extension UIView {
-    public var topBorderColor: UIColor? {
+    var topBorderColor: UIColor? {
         get { return borderLayer.colors[.top].flatMap(UIColor.init) }
         set { borderLayer.colors[.top] = newValue?.cgColor }
     }
 
-    public var rightBorderColor: UIColor? {
+    var rightBorderColor: UIColor? {
         get { return borderLayer.colors[.right].flatMap(UIColor.init) }
         set { borderLayer.colors[.right] = newValue?.cgColor }
     }
 
-    public var bottomBorderColor: UIColor? {
+    var bottomBorderColor: UIColor? {
         get { return borderLayer.colors[.bottom].flatMap(UIColor.init) }
         set { borderLayer.colors[.bottom] = newValue?.cgColor }
     }
 
-    public var leftBorderColor: UIColor? {
+    var leftBorderColor: UIColor? {
         get { return borderLayer.colors[.left].flatMap(UIColor.init) }
         set { borderLayer.colors[.left] = newValue?.cgColor }
     }
     
-    public var topBorderWidth: CGFloat {
+    var topBorderWidth: CGFloat {
         get { return borderLayer.widths[.top] ?? 0 }
         set { borderLayer.widths[.top] = newValue }
     }
     
-    public var rightBorderWidth: CGFloat {
+    var rightBorderWidth: CGFloat {
         get { return borderLayer.widths[.right] ?? 0 }
         set { borderLayer.widths[.right] = newValue }
     }
 
-    public var bottomBorderWidth: CGFloat {
+    var bottomBorderWidth: CGFloat {
         get { return borderLayer.widths[.bottom] ?? 0 }
         set { borderLayer.widths[.bottom] = newValue }
     }
 
-    public var leftBorderWidth: CGFloat {
+    var leftBorderWidth: CGFloat {
         get { return borderLayer.widths[.left] ?? 0 }
         set { borderLayer.widths[.left] = newValue }
     }
 
-    public var topBorderMargin: CGFloat {
+    var topBorderMargin: CGFloat {
         get { return borderLayer.margins[.top] ?? 0 }
         set { borderLayer.margins[.top] = newValue }
     }
 
-    public var rightBorderMargin: CGFloat {
+    var rightBorderMargin: CGFloat {
         get { return borderLayer.margins[.right] ?? 0 }
         set { borderLayer.margins[.right] = newValue }
     }
 
-    public var bottomBorderMargin: CGFloat {
+    var bottomBorderMargin: CGFloat {
         get { return borderLayer.margins[.bottom] ?? 0 }
         set { borderLayer.margins[.bottom] = newValue }
     }
 
-    public var leftBorderMargin: CGFloat {
+    var leftBorderMargin: CGFloat {
         get { return borderLayer.margins[.left] ?? 0 }
         set { borderLayer.margins[.left] = newValue }
     }
