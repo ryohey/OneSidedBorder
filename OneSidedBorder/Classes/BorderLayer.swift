@@ -46,7 +46,20 @@ class BorderLayer: CALayer {
 
     override init() {
         super.init()
+        setup()
+    }
 
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        setup()
+    }
+
+    override init(layer: Any) {
+        super.init(layer: layer)
+        setup()
+    }
+
+    private func setup() {
         needsDisplayOnBoundsChange = true
 
         // frame が 1 以上のサイズを持っていないと最初の描画が走らないので 1x1 の大きさにしておく
@@ -57,10 +70,6 @@ class BorderLayer: CALayer {
 
         setBorderColor(defaultBorderColor)
         setBorderMargin(0.0)
-    }
-
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
     }
 
     deinit {

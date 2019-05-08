@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'OneSidedBorder'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'Extension to add borders to a UIView.'
 
   s.description      = <<-DESC
