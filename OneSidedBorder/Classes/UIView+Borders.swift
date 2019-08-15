@@ -89,13 +89,16 @@ public extension UIView {
             self.layer.addSublayer(layer)
 
             layer.frame = CGRect(origin: .zero, size: self.frame.size)
-            layer.frameObserver = observe(\.frame) { (self, change) in
+            layer.frameObserver = observe(\.frame) { [weak layer] (view, change) in
+                guard let layer = layer else {
+                    return
+                }
                 // アニメーションさせない
                 CATransaction.begin()
                 CATransaction.disableActions()
 
                 // レイヤーのサイズを追従させる
-                layer.frame = CGRect(origin: .zero, size: self.frame.size)
+                layer.frame = CGRect(origin: .zero, size: view.frame.size)
                 CATransaction.commit()
             }
 
